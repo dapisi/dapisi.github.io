@@ -4,7 +4,7 @@ title:  "Alfa"
 date:   2013-11-10
 categories: dailypicture
 picture:
-  number: "004"
+  number: "002"
 ---
 
 
