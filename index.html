@@ -3,11 +3,38 @@ layout: default
 title: DaPiSi - Daily Picture Site
 ---
 
-<div id="home">
+<div id="welcome" class="sixteen columns">
   <h1>Daily Picture Site</h1>
+  <p>This page was built with Jekyll. Try resizing the browser window to see how the page responds. Even the images change size as the page gets smaller!</p>
+</div>
+
+<div class="one-third column feature">
+  
+  <h2>Pictures</h2>
+  <img src="http://lorempixum.com/400/100/nature/1" />
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.categories.dailypicture %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+<div class="one-third column feature">
+  
+  <h2>Blog</h2>
+  <img src="http://lorempixum.com/400/100/nature/2" />
+  <ul class="posts">
+    {% for post in site.categories.blog %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
+
+<div class="one-third column feature">
+  
+  <h2>Three</h2>
+  <img src="http://lorempixum.com/400/100/nature/3" />
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet. Curabitur aliquet orci sit amet est posuere consectetur.</p>
+</div>
+

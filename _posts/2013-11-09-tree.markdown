@@ -2,9 +2,9 @@
 layout: post
 title:  "Tree"
 date:   2013-11-09
-image: 2013/2013_003.png
-categories: jekyll update
+categories: dailypicture
+picture:
+  number: "313"
 ---
 
 
-![Picture 2013 #002](/assets/images/dailypic/{{ page.image }})

@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Alfa"
-date:   2013-11-10 11:33:57
-image: 2013/2013_002.jpg
-categories: jekyll update
+date:   2013-11-10
+categories: dailypicture
+picture:
+  number: "004"
 ---
 
 
-![Picture 2013 #002](/assets/images/dailypic/{{ page.image }})
